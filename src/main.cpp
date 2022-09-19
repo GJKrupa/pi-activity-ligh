@@ -5,7 +5,6 @@
 #define TEST_PIN 7
 #define DELAY_MS 30L  
 
-
 bool on = false;
 
 void setup() {
