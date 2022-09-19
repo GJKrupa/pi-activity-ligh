@@ -3,7 +3,7 @@
 #define IN_PIN 6
 #define OUT_PIN 8
 #define TEST_PIN 7
-#define DELAY_MS 30L  
+#define DELAY_MS 50L  
 
 bool on = false;
 
