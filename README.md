@@ -23,7 +23,7 @@ Flash the firmware from this project onto the board (making sure to correct if t
 
 In this example, Pin 7 is added as a 'test' pin to check functionality without a Pi. Simply cross connect pins 7 and 6 to simulate the Pi activity indicator going high.
 
-Add the following line to /boot/config.txt (or amend with the additional parameters if dt-overlay is already enabled).
+Add the following line to /boot/config.txt (or amend with the additional parameters if dtoverlay is already enabled).
 
 Pi 3:
 ```
