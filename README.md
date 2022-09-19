@@ -1,6 +1,6 @@
 # Raspberry Pi Activity Light Shim
 
-Microcontroller shim that makes an external activity light more visible. When using a GPIO to drive the activity light on a Raspberry Pi instead of the on-board LED, a lot of the activity is too brief for a standard LED to illuminate fully making it appear inactive. This project adds a microcontroller shim that ensures any SD card activity will result in the LED illuminating for long enough to be clearly visible. After some experimentation I found that a minimum time of 50ms was an ideal compromise between visibility and being able to maintain a nice flickery effect that looks like a drive activity indicator from a floppy or hard disk rive.
+Microcontroller shim that makes an external activity light more visible. When using a GPIO to drive the activity light on a Raspberry Pi instead of the on-board LED, a lot of the activity is too brief for a standard LED to illuminate fully making it appear inactive. This project adds a microcontroller shim that ensures any SD card activity will result in the LED illuminating for long enough to be clearly visible. After some experimentation I found that a minimum time of 50ms was an ideal compromise between visibility and being able to maintain a nice flickery effect that looks like a drive activity indicator from a floppy or hard disk drive.
 
 ## Requirements
 
